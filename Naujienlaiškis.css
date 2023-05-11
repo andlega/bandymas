@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(66, 16, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px black;
+}
+
+
+img {
+    width: 500px;
+    border-radius: 20px 0 0 20px;
+}
+
+form {
+    width: 350px;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 0 20px 20px 0;
+
+}
+
+input, select {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    opacity: 0.8;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    padding-left: 0;
+    font-size: 1.1em;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+input[type="submit"] {
+    background: rgb(85, 167, 85);
+    color: white;
+    width: 100px;
+    height: 25px;
+    border-radius: 20px; 
+}
+
+select {
+    background: black;
+}
